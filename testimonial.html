@@ -1,66 +1,118 @@
 <!DOCTYPE html>
-    <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>ADEDOYIN</title>
-            <!-- Link to Bootstrap CSS -->
-            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-            <!-- Link to your custom CSS file -->
-            <link rel="stylesheet" type="text/css" href="css/style.css">
-        </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADEDOYIN</title>
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Link to your custom CSS file -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
-        <body>
+    <style>
+        .testimonial-card {
+          background-color: white;
+          border: 1px solid transparent;
+          border-bottom-color: black;
+          border-radius: 20px;
+        }
+        .testimonial-card img {
+          border-radius: 20px;
+        }
+        .testimonial-card .card-body {
+          padding: 20px;
+        }
+      </style>
 
-            <!-- Navbar Section -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-info container-flex">
-                <a class="navbar-brand font text-white" href="#">ADEDOYIN</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto pale">
-                        <li class="nav-item">
-                            <a class="nav-link font-weight-bold text-white" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link font-weight-bold text-white" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link font-weight-bold text-white" href="#testimonials">Testimonials</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link font-weight-bold text-white" href="#blog">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link font-weight-bold text-white" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+</head>
+
+<body>
+
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-info container-flex">
+        <a class="navbar-brand font text-white" href="#">ADEDOYIN</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto pale">
+                <li class="nav-item">
+                  <a class="nav-link font-weight-bold text-white" href="http://127.0.0.1:5501/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link font-weight-bold text-white" href="http://127.0.0.1:5501/portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link font-weight-bold text-white" href="http://127.0.0.1:5501/aboutme.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link font-weight-bold text-white" href="http://127.0.0.1:5501/blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link font-weight-bold text-white" href="http://127.0.0.1:5501/contact.html">Contact Me</a>
+              </li>
+            </ul>
+        </div>
+    </nav>
 
 
-
-
-             <!-- Footer section with black overlay -->
-             <div class="dark-overlay bg-info mt-5">
-                <footer class="container text-center">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p>&copy; 2023 Your Name</p>
-                        </div>
-                        <div class="col-md-6">
-                            <p class="text-end">Designed with <i class="fas fa-heart text-danger"></i> by You</p>
-                        </div>
-                    </div>
-                </footer>
+    <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card testimonial-card">
+              <img src="images/pp1.jpg" class="card-img-top" alt="Testimonial Image">
+              <div class="card-body">
+                <h5 class="card-title">John Doe</h5>
+                <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu eros ut libero eleifend aliquam."</p>
+                <a href="#" class="btn btn-info rounded-pill">Read More</a>
+              </div>
             </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card testimonial-card">
+              <img src="images/pp1.jpg" class="card-img-top" alt="Testimonial Image">
+              <div class="card-body">
+                <h5 class="card-title">Jane Smith</h5>
+                <p class="card-text">"Nulla facilisi. Etiam malesuada, felis a blandit varius, purus lorem sollicitudin dolor."</p>
+                <a href="#" class="btn btn-info rounded-pill">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card testimonial-card">
+              <img src="images/pp1.jpg" class="card-img-top" alt="Testimonial Image">
+              <div class="card-body">
+                <h5 class="card-title">Emily Johnson</h5>
+                <p class="card-text">"Fusce dignissim, nisi euismod rhoncus mattis, nulla nisl tincidunt justo, nec sagittis turpis velit vitae urna."</p>
+                <a href="#" class="btn btn-info rounded-pill">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
 
-            <!-- Link to Bootstrap and jQuery JavaScript -->
-            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-            <!-- Your custom JavaScript file -->
-            <script src="script.js"></script>
-        </body>
-    </html>
+    
+    <!-- Footer section with black overlay -->
+    <div class="dark-overlay bg-info mt-5">
+        <footer class="container text-center">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2023 Your Name</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-end">Designed with <i class="fas fa-heart text-danger"></i> by You</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Link to Bootstrap and jQuery JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Your custom JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

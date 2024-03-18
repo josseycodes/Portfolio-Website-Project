@@ -1,26 +1,164 @@
-<!-- Navbar Section -->
-<nav class="navbar navbar-expand-lg navbar-light bg-info container-flex">
-    <a class="navbar-brand font text-white" href="#">ADEDOYIN</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto pale">
-            <li class="nav-item">
-                <a class="nav-link font-weight-bold text-white" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link font-weight-bold text-white" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link font-weight-bold text-white" href="#testimonials">Testimonials</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link font-weight-bold text-white" href="#blog">Blog</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link font-weight-bold text-white" href="#contact">Contact</a>
-            </li>
-        </ul>
-    </div>
-</nav>
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>ADEDOYIN</title>
+            <!-- Link to Bootstrap CSS -->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+            <!-- Link to your custom CSS file -->
+            <link rel="stylesheet" type="text/css" href="css/style.css">
+        </head>
+
+        <body>
+
+            <!-- Navbar Section -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-info container-flex">
+                <a class="navbar-brand font text-white" href="#">ADEDOYIN</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto pale">
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bold text-white" href="http://127.0.0.1:5501/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bold text-white" href="http://127.0.0.1:5501/portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bold text-white" href="http://127.0.0.1:5501/aboutme.html">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bold text-white" href="http://127.0.0.1:5501/blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bold text-white" href="http://127.0.0.1:5501/contact.html">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Contact Section -->
+            <div class=" mt-5 text-center">
+                <h2 class="text-info">Contact Me</h2>
+
+                <form class="mx-auto">
+                    <div class="mb-3">
+                        <label for="name" class="form-label text-info">Name</label>
+                        <div class="input-group">
+                            <div class="col-md-4 mx-auto">
+                                <input type="text" class="form-control form-control-sm" id="name" placeholder="Your Name" required>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="email" class="form-label text-info">Email</label>
+                        <div class="input-group">
+                            <div class="col-md-4 mx-auto">
+                                <input type="email" class="form-control form-control-sm" id="email" placeholder="Your Email" required>   
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="message" class="form-label text-info">Message</label>
+                        <div class="input-group">
+                            <div class="col-md-4 mx-auto">
+                                <textarea class="form-control form-control-sm" id="message" rows="4" placeholder="Your Message" required></textarea>   
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-info rounded-pill">Send</button>
+                </form>
+        
+                    <!-- Social media links here -->
+                    <div class="Potato">
+                        <div class="background4 d-flex justify-content-center align-items-center mt-5" style="height: 60vh; position: relative;">
+                            <div class="overlay"></div> <!-- Add a new div for the overlay -->
+                            <div class="">
+                                <div class="row">
+                                    <div class="col text-center mb-5">
+                                        <h1 style="font-size: 4em;" class="cardly text-white">Connect With Me Here</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+        
+                                    <div class="col-sm-3">
+                                        <div class="card bg-transparent border-0 text-white">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><a href="https://www.instagram.com/yourusername" target="_blank" class="text-white">
+                                                    <i class="fab fa-instagram"></i> Instagram
+                                                </a></h5>
+                                                <a href="#" class="btn btn-info rounded-pill">Connect</a>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="col-sm-3">
+                                        <div class="card bg-transparent border-0 text-white">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><a href="https://www.twitter.com/yourusername" target="_blank" class="text-white">
+                                                    <i class="fab fa-twitter"></i> Twitter
+                                                </a></h5>
+                                                <a href="#" class="btn btn-info rounded-pill">Connect</a>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="col-sm-3">
+                                        <div class="card bg-transparent border-0 text-white">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><a href="https://www.linkedin.com/in/yourusername" target="_blank" class="text-white">
+                                                    <i class="fab fa-linkedin"></i> LinkedIn
+                                                </a></h5>
+                                                <a href="#" class="btn btn-info rounded-pill">Connect</a>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="col-sm-3">
+                                        <div class="card bg-transparent border-0 text-white">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><a href="https://www.github.com/yourusername" target="_blank" class="text-white">
+                                                    <i class="fab fa-github"></i> GitHub
+                                                </a></h5>
+                                                <a href="#" class="btn btn-info rounded-pill">Connect</a>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                </div>
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <button class="btn btn-info btn-lg mt-5 rounded-pill">Check My Portfolio</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>           
+            
+        
+            <!-- Footer section with black overlay -->
+            <div class="dark-overlay bg-info">
+                <footer class="container text-center">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>&copy; 2023 Your Name</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="text-end">Designed with <i class="fas fa-heart text-danger"></i> by You</p>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+
+            <!-- Link to Bootstrap and jQuery JavaScript -->
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+            <!-- Your custom JavaScript file -->
+            <script src="script.js"></script>
+        </body>
+    </html>
