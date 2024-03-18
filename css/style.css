@@ -15,7 +15,7 @@
 }
 
 .background1 {
-    background-image: url(/josephine/images/pp2.jpg);
+    background-image: url(../images/pp2.jpg);
     background-position: center;
     background-size: cover;
     height: 102vh;
@@ -73,7 +73,7 @@
 }
 
 .background2 {
-    background-image: url(/josephine/images/DSC_9844.JPG);
+    background-image: url(../images/DSC_9844.JPG);
     background-position: center;
     background-size: cover;
     height: 102vh;
@@ -105,7 +105,7 @@ width: 100%;
 }
 
 .background3 {
-    background-image: url(/josephine/images/bestpic.JPG);
+    background-image: url(../images/bestpic.JPG);
     background-position: center;
     background-size: cover;
     height: 102vh;
@@ -124,7 +124,7 @@ width: 100%;
 }
 
 .background4 {
-    background-image: url(/josephine/images/p2copy.jpg);
+    background-image: url(../images/p2copy.jpg);
     background-position: center;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
