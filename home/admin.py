@@ -23,3 +23,6 @@ class CategoryAdmin(admin.ModelAdmin):
 class HomeAdmin(admin.ModelAdmin):
     list_display = ['title']
 
+
+
+

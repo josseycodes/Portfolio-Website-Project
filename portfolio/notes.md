@@ -53,7 +53,8 @@ https://docs.djangoproject.com/en/3.1/ref/contrib/admin/
 
 12- Create Models, and apply migrations
 python manage.py makemigrations
-python manage.py migrate
+python manage.py 
+
 
 13- Create superuser
 `python manage.py createsuperuser`
